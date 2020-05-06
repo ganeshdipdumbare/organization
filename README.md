@@ -12,14 +12,14 @@ This is a common problem to find the common nearest parent for a child.
 ## Usage
 
 - Clone the repository using git clone.
-- Build the project using command `` ` go build ` ``
-- Run the program using command `` ` ./organization ` ``
+- Build the project using command ``` go build ```
+- Run the program using command ``` ./organization ```
 - There are 4 choices for user
-- 0. create organization - should be called only once, this will create new organization with 1 employee(CEO with emp ID - 0)
-- 1. add employees to manager - new employess can be added to manager. Manager should be present in the organization(at the start only CEO will be present).
-- 2. nearest manager for the given 2 employees can be found by entering the emp ID of the users
-- 3. print the organization structure in preorder fashion(tree preorder traversal)
-- To run the test cases, run command- `` ` go test ./... ` ``
+  - 0. create organization - should be called only once, this will create new organization with 1 employee(CEO with emp ID - 0)
+  - 1. add employees to manager - new employess can be added to manager. Manager should be present in the organization(at the start only CEO will be present).
+  - 2. nearest manager for the given 2 employees can be found by entering the emp ID of the users
+  - 3. print the organization structure in preorder fashion(tree preorder traversal)
+- To run the test cases, run command- ``` go test ./... ```
 
 ## Assumptions
 
