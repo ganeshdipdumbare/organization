@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/gh/ganeshdipdumbare/organization/branch/master/graph/badge.svg)](https://codecov.io/gh/ganeshdipdumbare/organization)
 # myhttp
 
 Simple tool to create in memory organization(simliar to multinde tree) and to find closest manager of 2 emplyees.
