@@ -49,7 +49,7 @@ func TestFindNearestManager(t *testing.T) {
 	if err != nil {
 		t.Errorf("expected %v, got %v for error while calling FindNearestManager", "nil", "not nil")
 	}
-	if manager != 0 {
+	if manager != 1 {
 		t.Errorf("expected %v, got %v for manager value", 0, manager)
 	}
 }
